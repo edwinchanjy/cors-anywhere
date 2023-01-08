@@ -47,3 +47,10 @@ cors_proxy.createServer({
 }).listen(port, host, function() {
   console.log('Running CORS Anywhere on ' + host + ':' + port);
 });
+
+var http = require("http"); 
+
+setInterval(function() { 
+http.get("https://wash-expert.onrender.com"); 
+}, 840000); // every 14 minutes
+
