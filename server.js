@@ -52,5 +52,5 @@ var http = require("https");
 
 setInterval(function() { 
 http.get("https://wash-expert.onrender.com"); 
-}, 840000); // every 14 minutes
+}, 240000); // every 14 minutes
 
